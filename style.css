@@ -1,0 +1,97 @@
+body {
+	color: #787978;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+}
+.section-title h2 span {
+    color: #2fa55e;
+}
+.section-title h2 span {
+    color: #2fa55e;
+}
+
+.single-pricing-table {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+	transition: all ease .3s;
+}
+
+.single-pricing-table:hover h3 {
+	color: #2fa55e;
+}
+.single-pricing-table:hover {
+    border-color: green;
+    box-shadow: 3px 3px 10px #ccc;
+}
+.single-pricing-table h3 {
+    text-transform: uppercase;
+}
+
+.pricing-icon {
+    font-size: 40px;
+	margin-bottom: 10px;
+}
+.single-pricing-table  .pricing-icon > i, .single-pricing-table h3, .pricing-list ul li   {
+	transition: all ease .3s;
+}
+.pricing-list ul li:hover {
+	padding-left: 5px;
+}
+.pricing-icon img {
+    max-width: 60px;
+}
+.single-pricing-table:hover  .pricing-icon > i {
+	color: #333;
+}
+
+.pricing-list {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.pricing-list ul {
+    margin: 0;
+    padding-left: 30px;
+    list-style: none;
+}
+a.boxed-btn {
+    border: 1px solid #2fa55e;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+	transition: all ease .3s;
+}
+a.boxed-btn:hover {
+    background-color: #2fa55e;
+    color: #fff;
+}
+.pricing-list ul li {
+    line-height: 30px;
+}
+
+.pricing-list ul li:before {
+    content: "\f00c";
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    color: #2fa55e;
+	padding-right: 10px;
+}
+.pricing-list ul li.off:before {
+    content: "\f00d";
+    color: #eb3036;
+}
+h3.pricing-count {
+    text-transform: capitalize;
+    padding: 15px 0;
+}
